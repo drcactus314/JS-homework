@@ -58,6 +58,49 @@
 //     console.log(player [key]);
 // }
 
+//HM2
+
+// let num = +prompt("Введіть число");
+// num > 0 ? console.log(true) : console.log(false);
+
+// let str = "test";
+// "test" === "test" ? console.log(true): console.log(false);
+
+// let num = +prompt("Введіть число");
+// num > 10 ? console.log( num - 5) : console.log( num + 5); 
+ 
+// let numOfMonth = +prompt("Введіть число місяця");
+// switch (numOfMonth) {
+//     case 1: console.log("Січень");
+//     break
+//     case 2: console.log("Лютий");
+//     break
+//     case 3: console.log("Березень");
+//     break
+//     case 4: console.log("Квітень");
+//     break
+//     case 5: console.log("Травень");
+//     break
+//     case 6: console.log("Червень");
+//     break
+//     case 7: console.log("Липень");
+//     break
+//     case 8: console.log("Серпень");
+//     break
+//     case 9: console.log("Вересень");
+//     break
+//     case 10: console.log("Жовтень");
+//     break
+//     case 11: console.log("Листопад");
+//     break
+//     case 12: console.log("Грудень");
+//     break
+//     default: console.log("Ви ввели невірний формат або число");
+// }
+
+// let num = prompt("Введіть трьохзначне число");
+// let sum = +num[0] + +num[1] + +num[2];
+// console.log(sum);
 
 
 
