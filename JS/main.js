@@ -153,4 +153,45 @@
 // console.log(age);
 // console.log(averAge);
 
+//HW 4
+// ***1***
+// function checkAge(age) {
+//    return (age > 18) || confirm("Батьки дозволили?");
+// }
+// checkAge(21);
 
+// ***2***
+// let min = (a, b)=>{
+//     let result = a>b ? b : a
+//     console.log(result);
+//     return result ;
+// }
+// min(6, 6);
+
+// ***3***
+// function ask(question, yes, no) {
+//   if (confirm(question)) yes();
+//   else no();
+// }
+// ask(
+//   "Ви згодні?",
+//   function () {
+//     alert("Ви погодились.");
+//   },
+//   function () {
+//     alert("Ви скасували виконання.");
+//   },
+// );
+
+// let ask = (question, yes, no) => {
+//   confirm(question) ? yes() : no();
+// };
+// ask(
+//   "Ви згодні?",
+//   () => {
+//     alert("Ви погодились.");
+//   },
+//   () => {
+//     alert("Ви скасували виконання.");
+//   },
+// );
