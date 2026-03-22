@@ -10,7 +10,7 @@
 // let name = "Olga";
 // console.log(`привіт ${1}`);  // тут ми просто в шлаблонних літералах вказуємо число і воно його показує, оскільки не має доступу до змінної чи ключа.
 // console.log(`привіт ${"name"}`); // тут просто ми вказали всередині лапок рядок, який і по суті консоль нам показує.
-// console.log(`привіт ${name}`); // тут напряму ми вказали змінну і правильно це написали. 
+// console.log(`привіт ${name}`); // тут напряму ми вказали змінну і правильно це написали.
 
 // ***3***
 // let a = "5";
@@ -67,8 +67,8 @@
 // "test" === "test" ? console.log(true): console.log(false);
 
 // let num = +prompt("Введіть число");
-// num > 10 ? console.log( num - 5) : console.log( num + 5); 
- 
+// num > 10 ? console.log( num - 5) : console.log( num + 5);
+
 // let numOfMonth = +prompt("Введіть число місяця");
 // switch (numOfMonth) {
 //     case 1: console.log("Січень");
@@ -102,7 +102,55 @@
 // let sum = +num[0] + +num[1] + +num[2];
 // console.log(sum);
 
+//HM3
 
+//***1***
+// const fruits = [
+// { id: 0, name: "Apple" },
+// { id: 1, name: "Tomat" },
+// { id: 2, name: "Cherry" },
+// { id: 3, name: "Orange" },
+// ];
+// let names = fruits.map(fruit => {
+//    return fruit.name
+// })
+// console.log(names);
 
+//***2***
+// for( let num =1; num<=10; num++){
+//     if (num % 2 !== 0) {
+//         continue
+//     } console.log( num);
+// }
+
+// ***3***
+// let i = 0;
+// while (i < 5) {
+//   console.log(`цифра ${i}!`);
+//   i++;
+// // }
+
+// ***4***
+// let hundredDigits;
+// while ((true)) {
+//     hundredDigits = prompt("Введіть число більше за 100")
+//   if(hundredDigits === null || +hundredDigits >100){
+//     break
+//   } alert("Це число не більше 100! Спробуйте ще раз.")
+// }
+// console.log(hundredDigits);
+
+// ***5***
+// const girls = [
+// { age: 23, name: "Оля" },
+// { age: 29, name: "Аня" },
+// { age: 10, name: "Юля" },
+// { age: 20, name: "Катя" },
+// ];
+
+// let age = girls.map(age => age.age);
+// averAge = age.reduce((acc, current) => (acc+=current) / age.length)
+// console.log(age);
+// console.log(averAge);
 
 
