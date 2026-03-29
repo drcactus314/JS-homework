@@ -195,3 +195,74 @@
 //     alert("Ви скасували виконання.");
 //   },
 // );
+
+// HW5
+// ***1***
+// const student = {
+//     name: "Артем",
+//     faculty: "Міжнародні відносини",
+//     avgMark: 83.7,
+//     absDay: 23,
+//     showInfo: function(){
+//         console.log(`Студент/-ка ${this.name} вчиться на спеціальності ${this.faculty} має середній бал: ${this.avgMark} та пропустили стільки днів: ${this.absDay}`);
+//     }
+// }
+// student.showInfo();
+
+// const Nata = {
+//     name: "Ната",
+//     faculty: "Архітектура",
+//     avgMark: 93.8,
+//     absDay: 11,
+// }
+// student.showInfo.bind(Nata)();
+
+// const Volodia = {
+//     name: "Володя",
+//     faculty: "Фізкультура",
+//     avgMark: 78.3,
+//     absDay: 0,
+// }
+// student.showInfo.call(Volodia);
+
+// const Nastia = {
+//     name: "Настя",
+//     faculty: "Дизайнер",
+//     avgMark: 97.3,
+//     absDay: 3,
+// }
+// student.showInfo.apply(Nastia);
+
+// ***2***
+// const tesis = {
+//     nameTesis: "Назва",
+//     meaningTesis: "означає",
+//     showInfo: function(){
+//         console.log(`${this.nameTesis} - ${this.meaningTesis}`);
+//     }
+// }
+// tesis.showInfo();
+// const HtmlTesis = {
+//     nameTesis: "Html",
+//     meaningTesis: "це скелет сайту (структура, заголовки, текст, посилання).",
+// }
+// const CssTesis = {
+//     nameTesis: "CSS",
+//     meaningTesis: "це одяг сайту (кольори, шрифти, розташування блоків, дизайн)",
+// }
+// document.querySelector("#html").addEventListener('click', tesis.showInfo.bind(HtmlTesis));
+// document.querySelector("#css").addEventListener('click', tesis.showInfo.bind(CssTesis));
+
+//***3***
+// function calculatePrice(quantity) {
+//     const total = (this.pricePerKilo * quantity).toFixed(2);
+//     console.log(`Ваш товар: ${this.name} коштує: ${total} грн`);
+// }
+// const banana = { name: "Banana", pricePerKilo: 30 };
+// const cherry = { name: "Cherry", pricePerKilo: 58 };
+// const orange = { name: "Orange", pricePerKilo: 89 };
+
+// calculatePrice.call(banana, 4.5); 
+// calculatePrice.call(cherry, 1.3); 
+// calculatePrice.call(orange, 3.4);
+
