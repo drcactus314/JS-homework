@@ -311,3 +311,24 @@
 //   phone: 934567890,
 // });
 // console.log(Nazar);
+
+
+// HW7
+
+// function Calculator () {
+   
+//     this.read = function(){
+//          this.firstNumber = +prompt('Веддіть число');
+//          this.secondNumber = +prompt('Веддіть число');
+//     }
+//     this.sum = function(){
+//         return this.firstNumber + this.secondNumber;
+//     }
+//     this.mul = function(){
+//         return this.firstNumber * this.secondNumber;
+//     }
+// }
+// let myCalc = new Calculator();
+// myCalc.read();
+// console.log(myCalc.sum(), myCalc.mul());
+
