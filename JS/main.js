@@ -262,7 +262,52 @@
 // const cherry = { name: "Cherry", pricePerKilo: 58 };
 // const orange = { name: "Orange", pricePerKilo: 89 };
 
-// calculatePrice.call(banana, 4.5); 
-// calculatePrice.call(cherry, 1.3); 
+// calculatePrice.call(banana, 4.5);
+// calculatePrice.call(cherry, 1.3);
 // calculatePrice.call(orange, 3.4);
 
+// HW6
+
+// class Abonent {
+//   constructor(options) {
+//     this.name = options.name;
+//     this.phone = options.phone;
+//   }
+//   _firstName = "";
+//   _lastName = "";
+//   _phone = "";
+
+//   set name(newName) {
+//     let nameRow = newName.split(" ");
+//     this._firstName = nameRow[0];
+//     this._lastName = nameRow[1];
+//   }
+//   set phone(newPhone) {
+//     let stringPhone = newPhone.toString();
+//     if (!stringPhone.startsWith("+380")) {
+//       stringPhone = "+380" + stringPhone;
+//     }
+//     this._phone = stringPhone;
+//   }
+//   get info() {
+//     return `First name: ${this._firstName}, last name: ${this._lastName} and phone number: ${this._phone}`;
+//   }
+// }
+
+// const Artem = new Abonent({
+//   name: "Artem Kril",
+//   phone: 934567890,
+// });
+// console.log(Artem);
+
+// const Nastia = new Abonent({
+//   name: "Nastia Doroshenko",
+//   phone: 934567890,
+// });
+// console.log(Nastia);
+
+// const Nazar = new Abonent({
+//   name: "nazar Opryshko",
+//   phone: 934567890,
+// });
+// console.log(Nazar);
