@@ -312,11 +312,10 @@
 // });
 // console.log(Nazar);
 
-
 // HW7
 
 // function Calculator () {
-   
+
 //     this.read = function(){
 //          this.firstNumber = +prompt('Веддіть число');
 //          this.secondNumber = +prompt('Веддіть число');
@@ -332,3 +331,6 @@
 // myCalc.read();
 // console.log(myCalc.sum(), myCalc.mul());
 
+// HW8
+// const valueDiv = document.querySelector('div');
+// console.log(valueDiv.getAttribute('data-widget-name'));
