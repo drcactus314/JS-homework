@@ -334,3 +334,24 @@
 // HW8
 // const valueDiv = document.querySelector('div');
 // console.log(valueDiv.getAttribute('data-widget-name'));
+
+//HW9
+
+// const button = document.querySelector('#btn');
+// const text = document.querySelector('#text');
+// button.addEventListener('click', ()=>{
+//     text.classList.add('invisible')
+// })
+
+// const button = document.querySelector('#btn');
+// button.addEventListener('click', (event)=>{
+//     event.target.classList.add('invisible')
+// })
+
+// const parent = document.querySelector("#parent");
+// parent.addEventListener("click", () => {
+//   for (const child of parent.children) {
+//     child.classList.toggle("invisible");
+//     console.log("click");
+//   }
+// });
